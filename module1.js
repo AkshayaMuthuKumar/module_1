@@ -17,8 +17,8 @@ const db = mysql.createPool({
 const createTableQuery = `
   CREATE TABLE IF NOT EXISTS Direction (
     Id INT NOT NULL,
-    dir_latitude DECIMAL(9,6),
-    dir_longitude DECIMAL(9,6),
+    dir_latitude DECIMAL(9,9),
+    dir_longitude DECIMAL(9,9),
     PRIMARY KEY(Id)
   )
 `;
