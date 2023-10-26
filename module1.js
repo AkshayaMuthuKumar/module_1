@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 const mysql = require('mysql');
 const app = express();
-const port = 3000;
+const port = 4000;
 
 const apiUrl = 'https://api.vamosys.com/mobile/getGrpDataForTrustedClients?providerName=CALYX&fcode=SPVAMO';
 
