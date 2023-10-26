@@ -55,7 +55,7 @@ db.getConnection((connectionError, connection) => {
     if (err) {
       console.error('Error creating the table: ' + err);
     } else {
-      console.log('Table created successfully');
+      console.log('Table created ');
     }
   });
 });
